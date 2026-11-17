@@ -1,5 +1,5 @@
 
-import GLL.Combinators.Interface
+import GLL.Combinators.Interface hiding (lexer, parens, within)
 
 import Data.Char (isDigit)
 
